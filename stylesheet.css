@@ -3,7 +3,6 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  background-color: #white
 }
 
 .header {
@@ -11,10 +10,10 @@
   height: 80px;
   display: block;
   background-color: white;
-  border-bottom: 1px solid lightgrey
+  border-bottom: 1px solid lightgrey;
 }
 
-.inner_header{
+.inner_header {
   width: 80%;
   height: 100%;
   display: block;
@@ -22,48 +21,47 @@
   background-color: white;
 }
 
-.logo_container{
-  height: 100%;
+.logo_container {
+  height: 100px;
   display: table;
   float: left;
-
 }
-.logo_container img{
-  height: 80%;
+.logo_container img {
+  height: 75%;
   display: table-cell;
   vertical-align: middle;
   padding-top: 5px;
-  background-color: transparent
+  background-color: transparent;
 }
 
-.navlinks{
+.navlinks {
   float: right;
   height: 100%;
 }
 
-.navlinks a:last-child{
-  padding-right: 0
+.navlinks a:last-child {
+  padding-right: 0;
 }
 .navlinks a {
   height: 100%;
   display: table;
   float: left;
   padding: 0px 10px;
-  background-color: white
+  background-color: white;
 }
 
-.navlinks li{
+.navlinks li {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   color: black;
   font-family: arial, sans-serif;
   font-weight: bold;
-  background-color: white
+  background-color: white;
 }
 
-.body_container{
-  width: 60%;
+.body_container {
+  width: 80%;
   display: block;
   margin: 0 auto;
   padding-top: 30px;
@@ -73,7 +71,7 @@
   background-color: transparent;
 }
 
-.body_container h1{
+.body_container h1 {
   font-family: Ultra, sans-serif;
 
   background-color: transparent;
@@ -83,20 +81,24 @@
 }
 
 @media (min-width: 501px) {
-  p {font-family: Russo One, sans-serif;
-  font-size: 28px;
-}
-  h1 {font-family: Ultra, sans-serif;
-  font-size: 64px;
+  p {
+    font-family: Russo One, sans-serif;
+    font-size: 28px;
+  }
+  h1 {
+    font-family: Ultra, sans-serif;
+    font-size: 64px;
   }
 }
 
 @media (max-width: 500px) {
-  p {font-family: Russo One, sans-serif;
-  font-size: 20px;
-}
-  h1 { font-family: Ultra, sans-serif;
-  font-size: 32px;
+  p {
+    font-family: Russo One, sans-serif;
+    font-size: 20px;
+  }
+  h1 {
+    font-family: Ultra, sans-serif;
+    font-size: 32px;
   }
 }
 
@@ -105,21 +107,19 @@
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .hero_image {
-  height: 100%;
-  position: absolute;
-  background-position: center;
+  display: block;
+  justify-content: center;
 }
 
 #bg {
   height: 100%;
   top: 20%;
   left: 0%;
+  justify-self: center;
   position: fixed;
-
 }
 
 a {
@@ -130,8 +130,7 @@ tr {
   text-align: left;
   font-size: 20px;
   border: 2px solid lightgrey;
-
-  }
+}
 
 th {
   background-color: #e3e6ed;
@@ -139,10 +138,10 @@ th {
   padding: 10px;
 }
 
- td {
-   background-color: white;
-   border-left: 2px solid lightgrey;
-   border-collapse: collapse;
-   text-align: center;
-   padding: 10px;
- }
+td {
+  background-color: white;
+  border-left: 2px solid lightgrey;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
