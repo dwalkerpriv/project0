@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project 0
 
 Web Programming with Python and JavaScript
@@ -11,3 +12,6 @@ Overall, I think this was a decent first attempt at creating a website in an old
 kinda way.
 
 Looking forward to learning more.
+=======
+# dwalkerpriv
+>>>>>>> 57a3f8130e386a855ce813ee27a57bd32fe681f0
